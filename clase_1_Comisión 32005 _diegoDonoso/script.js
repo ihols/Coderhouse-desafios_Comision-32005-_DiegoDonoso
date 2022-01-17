@@ -1,0 +1,10 @@
+let numero1 = 6;
+let nombre = prompt("!Hola, cual es tu nombre?");
+console.log("Bienvenido a la consola " + nombre);
+let numero2 = parseInt(prompt("Dime un número porfavor"));
+let suma = numero1 + numero2;
+console.log(suma);
+let palabra1 = prompt("Dime una palabra porfavor");
+let palabra2 = prompt("Dime otra palabra porfavor");
+let frase = palabra1 + " " + palabra2;
+alert(frase);
